@@ -1,0 +1,21 @@
+title: Hi there, I'm Rollend (He/Him)
+logo: "/images/logo.png?raw=true"
+description: >
+  I'm a Senior Consultant at Insight working in the Apps & Infrastructure Team! My focus is on Cloud Technology, DevOps, Azure, Terraform and I'm based in Perth, Australia.
+  <br><br>
+  ⚡ Languages and Technologies<br>
+  <ul>(Programming languages): C#, JavaScript, Java, SQL, Bicep, Terraform, Powershell.<br>
+  <ul>(Databases and Data Stores): Azure Cosmos DB (Table and SQL API), SQL Server, MongoDB, Azure Storage, Databricks.<br>
+  <ul>(Technologies): Azure, AWS, Git, GitHub, Visual Studio, Azure DevOps.<br>
+  <ul>(Other): API Design, Non-relational Database Design, Unit Testing (xUnit), Integration Testing (SpecFlow) & E2E Testing.<br>
+  ☕ Work<br>
+  <ul>Insight, Australia: Current job. Senior Consultant working in the Apps & Infrastructure Team.<br>
+  <ul>Tata Consultancy Service, Australia: Software engineering and architect role developing cloud solutions using C#, Azure, AWS, SQL, Kafka and Oracle to integrate with customer’s existing technical infrastructure and business processes.<br>
+  <ul>Cognizant: Built systems that deal with Insurance, Banking & Finance across United States & APAC regions. These applications are built on the Azure ,C#, SQL etc.<br>
+  📫 How to reach me<br>
+  <a href="https://www.linkedin.com/in/rollendxavier/">LinkedIn</a><br>
+  <a href="https://rollendxavier.medium.com/">Medium</a><br>
+  <a href="https://dev.to/rollendxavier">Dev.to</a><br>
+  
+theme: jekyll-theme-minimal
+google_analytics: UA-000000-0
