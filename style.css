@@ -1,44 +1,20 @@
-/* Body styles */
-body {
-  background-color: #f4f4f4;
-  font-family: Arial, sans-serif;
-  color: #333;
+/* Reset CSS */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-/* Header styles */
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.5;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 32px;
-}
-
-/* Main content styles */
-main {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Image styles */
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
-
-/* Link styles */
 a {
-  color: #337ab7;
+  color: #007bff;
   text-decoration: none;
 }
 
@@ -46,22 +22,80 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Article styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+/* Navigation */
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Main content */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
 article {
-  margin-bottom: 40px;
+  width: calc(33.33% - 20px);
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 article h2 {
   font-size: 24px;
-  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 article p {
-  margin-top: 0;
+  font-size: 18px;
   line-height: 1.5;
 }
 
-/* Footer styles */
+/* Footer */
 footer {
   background-color: #333;
   color: #fff;
@@ -70,24 +104,5 @@ footer {
 }
 
 footer p {
-  margin: 0;
-}
-
-/* Media query for smaller screens */
-@media (max-width: 600px) {
-  header h1 {
-    font-size: 24px;
-  }
-
-  main {
-    padding: 10px;
-  }
-
-  img {
-    margin-bottom: 10px;
-  }
-
-  article h2 {
-    font-size: 20px;
-  }
+  font-size: 18px;
 }
