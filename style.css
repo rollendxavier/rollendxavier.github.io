@@ -8,6 +8,7 @@ header {
 	background-color: #f2f2f2;
 	padding: 20px;
 	text-align: center;
+	position: relative; /* add position:relative to the header */
 }
 
 h1, h2 {
@@ -22,6 +23,17 @@ h1 {
 h2 {
 	font-size: 24px;
 	color: #666;
+}
+
+.profile-image {
+	border-radius: 50%; /* add a border-radius of 50% to create a round image */
+	border: 5px solid #f2f2f2; /* add a white border */
+	width: 150px; /* adjust the width and height as needed */
+	height: 150px;
+	position: absolute; /* make the image position absolute to center it within the header */
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
 main {
